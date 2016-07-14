@@ -1,0 +1,11 @@
+echo '
+metadata:
+  name: lava-test-shell-simple
+  description: Simple test to validate deployment
+  version: 1.0
+  format: "Lava-Test-Shell Test Definition 1.0"
+  author: "Copy Paste Wiki"
+
+run:
+  steps:
+    - lava-test-case yeah-it-works --result pass
